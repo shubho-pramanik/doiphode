@@ -328,7 +328,7 @@
        <td class="nav" align="center">
 
 	<ul id="nav">
-		<li style=" width:20%";><a href="home.php" class=""><font  color="white"   size="4">मुख्य पान</font></a></li>
+		<li style=" width:20%";><a href="index.php" class=""><font  color="white"   size="4">मुख्य पान</font></a></li>
 		 <li class='line'><li style=" width:20%"; ><a href="aboutus.php"><font  color="white"   size="4">प्रास्ताविक</font></a></li>
 		 <li class='line'><li style=" width:15%";><a href="committee.php"><font  color="white"   size="4">समिती</font></a></li>
 		 <li class='line'><li style=" width:20%";><a href="gallery_Adsul_2011.php"><font  color="white"   size="4">छायाचित्रे</font></a></li>
@@ -939,7 +939,7 @@
       </tr>
      <tr>
 
-        <td id="footer"><a href="home.php" class="">मुख्य पान</a> <a href="aboutus.php">प्रास्ताविक</a><a href="committee.php">मंडळ</a><a href="gallery_Adsul_2011.php">छायाचित्रे</a><a href="registration.php">नोंदणी</a></td>
+        <td id="footer"><a href="index.php" class="">मुख्य पान</a> <a href="aboutus.php">प्रास्ताविक</a><a href="committee.php">मंडळ</a><a href="gallery_Adsul_2011.php">छायाचित्रे</a><a href="registration.php">नोंदणी</a></td>
 
 
 
