@@ -1,0 +1,154 @@
+/*
+ * PureDOMExplorer Demo styles 
+ * written by Chris Heilmann 
+ * More at http://onlinetools.org/tools/puredom/
+ */
+ 
+ 
+ li a{
+	color:#fff;
+	padding-left:70px;
+	}
+	
+	ul.pde a:link,
+	ul.pde a:visited,
+	ul.pde a:hover,
+	ul.pde a:active{
+		text-decoration:none;
+		color:#000;
+	}
+	ul.pde,ul.pde li:before{
+		margin:0;
+		padding:0;
+		list-style:none;
+		content:none;
+	}
+	ul.pde{
+		text-align:left;
+		font-size:11px;
+	}
+	ul.pde ul{
+		margin:0 0 0 0em;
+		padding:0;
+	}
+	ul.pde li{
+		line-height:1.3em;
+		padding:.2em 0;
+		margin:0px;
+ 		padding-left:25px;
+	}
+	
+		ul.pde,ul.pde,ul.pde li:before{
+		margin:0;
+		padding:0;
+		color:black;
+    content:"-";
+	}
+	
+	ul.pde,ul.pde,ul.pde li.parent:before{
+		margin:0;
+		padding:0;
+    content:none;
+	}
+	
+	ul.pde,ul.pde,ul.pde,ul.pde li:before{
+		margin:0;
+		padding:0;
+    color:black;
+    content:"-";
+	}
+	
+/* dynamically added to LIs with nested ULs */
+	ul.pde li.parent{
+		padding-left:0;
+	}
+	ul.pde li.parent img{
+		border:none;
+		padding-right:5px;
+	}
+/* dynamically added to LIs with nested ULs and STRONG elements in them */
+	ul.pde li.current li{
+		padding-left:0;
+	}
+/* The class to hide nested ULs */
+       .hide{
+               position:absolute;
+               top:0;
+               left:-4000px;
+       }
+
+/* The class to show nested ULs */
+.show{
+ /*      position:static;
+	   display: table;*/
+	   top:0;
+	   left:1em;
+}
+	   
+#view1
+{
+	background-color:#FFE262;
+  	border-top: 1px solid #FFE262;
+	list-style:none;
+	text-indent:5px;
+}
+#view2
+{
+	background-color:#FFD553;
+	border-top: 1px solid #FFD553;
+	list-style:none;
+	text-indent:10px;
+}
+#view3
+{
+	background-color:#EEC036;
+	border-top: 1px solid #EEC036;
+	list-style:none;
+	text-indent:15px;
+}
+#view4
+{
+	background-color:#E9B011;
+	border-top: 2px solid #E9B011;
+	list-style:none;
+	text-indent:20px;
+}
+#view5
+{
+/*	background-color:#B18500;
+*/	background-color:#EDB207;
+
+	border-top: 2px solid #EDB407;
+
+	list-style:none;
+	text-indent:25px;
+}
+#view6
+{
+	background-color:#FECF39;
+	border-top: 1px solid #FECF39;
+	list-style:none;
+	text-indent:30px;
+}
+#view7
+{
+	background-color:#FFD553;
+	border-top: 1px solid #FFD553;
+	list-style:none;
+	text-indent:35px;
+}
+#view8
+{
+	background-color:#FEEA8F;
+	cursor: pointer;
+ 	border-top: 1px solid #CDCDCD;
+	color: #4F4F4F;
+	font-size:11px;
+	font-weight:bold;
+	list-style:none;
+}
+#view5 .title
+{
+	color:#fff;
+	padding-left:8px;
+}
